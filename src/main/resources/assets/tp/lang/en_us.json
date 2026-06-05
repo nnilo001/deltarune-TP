@@ -1,0 +1,19 @@
+{
+  "item.deltamine.tension_bit": "TensionBit",
+  "item_group.deltamine.deltarune": "Deltarune",
+  "key.deltamine.m": "M",
+  "gui.deltamine.magic.button_heal_prayer_32_tp": "Heal Prayer | 32% TP",
+  "item.tp.tension_bit": "TensionBit",
+  "item_group.tp.deltarune": "Deltarune",
+  "gui.tp.magic.button_heal_prayer_32_tp": "Heal Prayer | 32% TP",
+  "key.tp.m": "M",
+  "item.tp.tension_max": "TensionMax",
+  "gui.tp.magic.button_rude_buster_50_tp": "Rude Buster | 50% TP",
+  "gui.tp.magic.button_ice_shock_16_tp": "",
+  "gui.tp.magic.label_magic": "MAGIC",
+  "gui.tp.magic.button_snowgrave_200_tp": "",
+  "item.tp.thorn_ring": "ThornRing",
+  "death.attack.snowgrave": "%1$s was frozen solid.",
+  "death.attack.snowgrave.item": "%1$s was frozen solid by %2$s with %3$s.",
+  "death.attack.snowgrave.player": "%1$s was frozen solid by %2$s."
+}

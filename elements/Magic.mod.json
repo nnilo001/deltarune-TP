@@ -1,0 +1,151 @@
+{
+  "_fv": 85,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 300,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_heal_prayer_32_tp",
+          "text": "Heal Prayer | 32% TP",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Heal"
+          },
+          "displayCondition": {
+            "name": "SHOW"
+          },
+          "width": 130,
+          "height": 20,
+          "x": 150,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_rude_buster_50_tp",
+          "text": "Rude Buster | 50% TP",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Rude"
+          },
+          "displayCondition": {
+            "name": "SHOW2"
+          },
+          "width": 125,
+          "height": 20,
+          "x": 150,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ice_shock_16_tp",
+          "text": "",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Ice"
+          },
+          "displayCondition": {
+            "name": "SHOW3"
+          },
+          "width": 115,
+          "height": 20,
+          "x": 150,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_magic",
+          "text": {
+            "fixedValue": "MAGIC"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 195,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_snowgrave_200_tp",
+          "text": "",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Icer"
+          },
+          "width": 120,
+          "height": 20,
+          "x": 150,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_ifu",
+          "text": {
+            "fixedValue": "",
+            "name": "Ifu"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "x": 155,
+          "y": 49,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_ifu_2",
+          "text": {
+            "fixedValue": "",
+            "name": "Ifu2"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "hasShadow": true,
+          "displayCondition": {
+            "name": "SHOW3"
+          },
+          "x": 155,
+          "y": 130,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 9,
+      "sy": 9,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
